@@ -99,6 +99,7 @@ class HBNBCommand(cmd.Cmd):
         """ Method to exit the HBNB console"""
         exit(0)
 
+    
     def help_quit(self):
         """ Prints the help documentation for quit  """
         print("Exits the program with formatting\n")
